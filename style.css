@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+}
+
+
+form {
+    /* ... estilos existentes ... */
+    background-image: url('freee.jpg'); /* Reemplaza con la ruta real de la imagen */
+    background-repeat: repeat; /* Repite la imagen en todas las direcciones */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Posiciona la imagen en el centro */
+}
+
+
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
